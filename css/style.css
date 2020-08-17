@@ -106,3 +106,14 @@ body{
 footer{
     border-top: 1px solid black;
 }
+
+@media (max-width: 768px) {
+    .navLeft {
+      position: static;
+      height: auto;
+    }
+  
+    .navTop {
+      position: static;
+    }
+}
