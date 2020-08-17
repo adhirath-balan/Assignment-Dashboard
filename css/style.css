@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ruda', sans-serif;
+}
+
+.bg-sec{
+    background-color: #6c757d52;
+}
+
+.navLeft{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.6)) , url(../images/img1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom-border{
+    border-bottom: 1px solid white;
+}
+
+.text-size{
+    font-size: xx-large;
+}
+
+.text-admin{
+    font-size: 1.3rem;
+}
+
+.navBtn:hover{
+    background-color: grey;
+}
+
+.shad{
+    border-radius: 2rem;
+    box-shadow: 9px 15px 15px black;
+}
+
+.navAct:hover{
+    background-color: #113358;
+    border-radius: 2rem;
+    box-shadow: 9px 15px 15px black;
+}
+
+.search-text{
+    border: none;
+    border-bottom: 1.5px solid white;
+}
+
+.search-text:focus{
+    border-bottom: 1.5px solid red;   
+    box-shadow: none;
+}
+
+.search-icon{
+    margin-top: 0.3rem;
+}
+
+.search-icon:hover{
+    background-color: white;
+}
+
+.icon-parent{
+    position: relative;
+}
+
+.icon-bullet::before{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 1rem;
+    border-radius: 50%;
+    background-color: #f44336;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+.card-shadow{
+    box-shadow: 2px 3px 5px black;
+}
+
+.card-shadow:hover{
+    box-shadow: 0.1rem 0.5rem 1rem black;
+}
+
+.right-border{
+    border-left: 5px solid red ;
+}
+
+#accordionExample button:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#accordionExample span{
+    font-size: 1.1rem;
+    padding-top: 0.6rem;
+}
+
+footer{
+    border-top: 1px solid black;
+}
